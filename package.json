@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "cucumbertest": "npx cypress run --env tags='@smoke'"
+      "cucumbertest": "npx cypress run --env tags='@smoke' --headed"
   },
   "keywords": [],
   "author": "",

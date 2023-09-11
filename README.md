@@ -1,15 +1,16 @@
 # Cypress E2E Automation Framework- Katalon
 
-Installation Guide
+## Installation and Execution Guide
 
-1) Clone the repo in your local and run the following command, to install the packages of the framework
+1. Clone the repo in local machine --> navigate to root folder (CYPRESSBDDFRAMEWORK) and run the following command, to install the node packages of the framework
 
-npm install
+`npm install`
 
-2) Once the installtion is done, run the following command to trigger the cucumber based end to end test 
+2. Once the installtion is done, run the following command to trigger the cucumber based Katalon end to end test 
 
-npm run cucumbertest
+`npm run cucumbertest`
 
-3) Then you can view the html report in following path CypressAutomationE2EFramework/cucumber-report.html. Right click the cucumber-report.html file,open it in the browser or run the below command in your terminal to view the report 
+3. Then the html reports can be viewed in the following path `CypressAutomationE2EFramework/cucumber-report.html`. 
+Right click the cucumber-report.html file, open it in the browser or run the below command in your terminal to view the report 
 
-open cucumber-report.html
+`open cucumber-report.html`
